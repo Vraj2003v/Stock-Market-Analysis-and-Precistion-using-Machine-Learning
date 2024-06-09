@@ -1,0 +1,29 @@
+cd..
+
+cd xampp/htdocs/PROJECT/python
+
+streamlit run stock.py --server.headless true    ------8501
+
+streamlit run predict.py --server.headless true    ------8502
+
+streamlit run explore.py --server.headless true    ------8503
+
+streamlit run aapl.py --server.headless true    ------8504
+
+streamlit run googl.py --server.headless true    ------8505
+
+streamlit run amzn.py --server.headless true    ------8506
+
+streamlit run tsla.py --server.headless true    ------8507
+
+streamlit run msft.py --server.headless true   ------8508
+
+streamlit run reliance.py --server.headless true    ------8509
+
+streamlit run tcs.py --server.headless true    ------8510
+
+streamlit run infy.py --server.headless true    ------8511
+
+streamlit run sbi.py --server.headless true    ------8512
+
+streamlit run hdfcbank.py --server.headless true    ------8513

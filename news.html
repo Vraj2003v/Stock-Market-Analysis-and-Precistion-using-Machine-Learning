@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FinFlexx</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <style>
+    .box {
+      background-color: #0e1117;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 150px;
+      padding-bottom: 30px;
+    }
+
+    /* Style for the table */
+    table {
+      width: 80%;
+    }
+
+    /* Style for table cells */
+    td {
+      text-align: center;
+      padding-bottom: 100px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    /* Style for images */
+    img {
+      width: 100px;
+      height: 100px;
+      background-color: #0e1117;
+      cursor: pointer;
+    }
+
+    .head {
+      font-size: 40px;
+      color: #fff;
+      font-weight: 1000;
+      padding-left: 280px;
+      padding-bottom: 50px;
+    }
+
+    input.checkbox {
+      cursor: pointer;
+      width: 15px;
+      height: 15px;
+      color: #0e1117;
+    }
+
+    .submit {
+      position: absolute;
+      top: 1725px;
+      left: 705px;
+      border-radius: 20px;
+      font-size: 20px;
+      background-color: #0e1117;
+      border: 2px solid #fff;
+      cursor: pointer;
+      color: #fff;
+      font-weight: 650;
+      padding: 10px 10px 10px 10px;
+    }
+
+    #news {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+      padding-left: 180px;
+    }
+  </style>
+
+
+  <!-- Boxicons CSS -->
+  <link flex href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="./js/script.js" defer></script>
+  <link type="image" rel="icon" href="./img/finflexx.png" />
+</head>
+
+<body>
+
+  <nav class="sidebar locked">
+    <div class="logo_items flex">
+      <span class="nav_image">
+        <img src="./img/finflexx.png" alt="logo_img" />
+      </span>
+      <span class="logo_name">FinFlexx</span>
+      <i class="bx bx-lock-alt" id="lock-icon" title="Unlock Sidebar"></i>
+      <i class="bx bx-x" id="sidebar-close"></i>
+    </div>
+    <div class="menu_container">
+      <div class="menu_items">
+        <ul class="menu_item">
+          <div class="menu_title flex">
+            <span class="title">Dashboard</span>
+            <span class="line"></span>
+          </div>
+          <li class="item">
+            <a href="./index.html" class="link flex">
+              <i class="bx bx-home-alt"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#" class="link flex">
+              <i class='bx bx-news'></i>
+              <span>News & Blogs</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="menu_item">
+          <div class="menu_title flex">
+            <span class="title">Stocks</span>
+            <span class="line"></span>
+          </div>
+          <!--<li class="item">
+              <a href="#" class="link flex">
+                <i class='bx bx-heart'></i>
+                <span>Watchlist</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link flex">
+                <i class="bx bx-folder"></i>
+                <span>Portfolio</span>
+              </a>
+            </li>-->
+          <li class="item">
+            <a href="./explore.html" class="link flex">
+              <i class='bx bx-candles'></i>
+              <span>Explore Stocks</span>
+            </a>
+          </li>
+        </ul>
+        <!--
+          <ul class="menu_item">
+            <div class="menu_title flex">
+              <span class="title">Services</span>
+              <span class="line"></span>
+            </div>
+            <li class="item">
+              <a href="#" class="link flex">
+                <i class='bx bx-rupee' ></i>
+                <span>Price Prediction</span>
+              </a>
+            </li>
+          -->
+
+        <!--<li class="item">
+              <a href="#" class="link flex">
+                <i class="bx bx-award"></i>
+                <span>Award</span>
+              </a>
+            </li>
+            <li class="item">
+              <a href="#" class="link flex">
+                <i class="bx bx-cog"></i>
+                <span>Setting</span>
+              </a>
+            </li>-->
+        </ul>
+        <ul class="menu_item">
+          <div class="menu_title flex">
+            <span class="title">Account</span>
+            <span class="line"></span>
+          </div>
+          <!--<li class="item">
+              <a href="#" class="link flex">
+                <i class='bx bxs-user-detail' ></i>
+                <span>Details</span>
+              </a>
+            </li>-->
+          <li class="item">
+            <a href="./signin.html" class="link flex">
+              <i class='bx bxs-exit'></i>
+              <span>Log In</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!--<div class="sidebar_profile flex">
+          <span class="nav_image1">
+            <img src="./V.png" alt="logo_img" />
+          </span>
+          <div class="data_text">
+            <span class="name">Vraj Patel</span>
+            <span class="email">vraj.patel2003v@gmail.com</span>
+          </div>
+        </div>
+      </div>-->
+  </nav>
+
+
+
+  <Section id="welcome_Sec">
+
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+        async>
+          {
+            "symbols": [
+              {
+                "description": "",
+                "proName": "NASDAQ:TSLA"
+              },
+              {
+                "description": "",
+                "proName": "NASDAQ:AAPL"
+              },
+              {
+                "description": "",
+                "proName": "NASDAQ:AMZN"
+              },
+              {
+                "description": "",
+                "proName": "NASDAQ:GOOGL"
+              },
+              {
+                "description": "",
+                "proName": "NASDAQ:MSFT"
+              }
+            ],
+              "showSymbolLogo": true,
+                "isTransparent": false,
+                  "displayMode": "adaptive",
+                    "colorTheme": "dark",
+                      "locale": "en"
+          }
+        </script>
+    </div>
+    <!-- TradingView Widget END -->
+  </Section>
+
+
+  <nav class="navbar">
+    <i class="bx bx-menu" id="sidebar-open"></i>
+    <div class="wrapper">
+      <div class="search-input">
+        <a href="" target="_blank" hidden></a>
+        <input type="text" placeholder="Search for Stocks..." class="bar search_box">
+        <div class="autocom-box">
+          <!-- here list are inserted from javascript -->
+        </div>
+        <div class="icon"><i class="fas fa-search"></i></div>
+      </div>
+    </div>
+  </nav>
+
+  <Section id="news">
+    <!-- TradingView Widget BEGIN -->
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-timeline.js" async>
+        {
+          "feedMode": "market",
+            "market": "stock",
+              "isTransparent": false,
+                "displayMode": "regular",
+                  "width": "1000",
+                    "height": "800",
+                      "colorTheme": "dark",
+                        "locale": "en"
+        }
+      </script>
+    </div>
+    <!-- TradingView Widget END -->
+  </Section>
+  
+
+
+
+
+  <footer>
+    <p class="copyright">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright ©
+      2024 FinFlexx</p>
+  </footer>
+
+  <script>
+    function addToWatchlist() {
+      var checkboxes = document.querySelectorAll('.checkbox:checked');
+      var altNames = [];
+      checkboxes.forEach(function (checkbox) {
+        altNames.push(checkbox.alt);
+      });
+      document.getElementById('imageForm').submit();
+    }
+  </script>
+
+  <script src="./js/search_script.js"></script>
+
+</body>
+
+</html>
