@@ -37,3 +37,7 @@ Behind the scenes the Linear Regression model is used to analyze stock data and 
 
   </li>
 </ol>
+
+<h2 align="center">
+  🙏 Thank You 🙏
+</h2>
