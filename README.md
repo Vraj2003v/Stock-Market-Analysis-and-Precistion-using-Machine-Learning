@@ -30,7 +30,8 @@ Behind the scenes the Linear Regression model is used to analyze stock data and 
   <li>Further, Run localhost/{folder_name}/index.html in the browser and the landing page of the website will be in front of you.  [{folder_name}: Name of the folder in which the ZIP file is extracted eg. in this case, its PROJECT]</li>
   
   <li>
-    <p>Finally, To get accustomed with the working of the website watch the video from the trailing link.</p>
-    <p></p>
+    Finally, To get accustomed with the working of the website watch the video from the trailing link.
+    <p><a href="https://drive.google.com/file/d/1N6Dmcyd-e1KUhaxoPa5Lse3OIWf3Ixcm/view?usp=drive_link" target="_blank">🎥👀 Watch the Video👀🎥 </a>
+</p>
   </li>
 </ol>
