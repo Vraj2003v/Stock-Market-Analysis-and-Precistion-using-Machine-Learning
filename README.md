@@ -23,18 +23,17 @@ Behind the scenes the Linear Regression model is used to analyze stock data and 
   
   <li>Secondly, Download and Set up the <i><b>XAMPP</b></i>. Further, launch <i><b>APACHE</b></i> and <i><b>MySQL</b></i> server.</li>
   
-  <li>Now, move to the <i><b>python directory, run the <i><b>run_all_streamlit_apps</b></i> Windows Batch file and follow the required mentioned steps until all the streamlit apps are in running state in Command Prompt.</li>
+  <li>Now, move to the <i><b>python directory</b></i>, run the <i><b>run_all_streamlit_apps</b></i> Windows Batch file and follow the required mentioned steps until all the streamlit apps are in running state in Command Prompt.</li>
   
   <li>Moreover, open Browser and run <i><b>localhost/phpmyadmin</b></i> and create a Database named as <i><b>loginpage</b></i> and further create three tables namely <i><b>login, signup</b></i> and <i><b>watchlist</b></i> according to the given structures provided in the <i><b>Table Structure</b></i> folder of this project.</li>
   
-  <li>Further, Run <i><b>localhost/{folder_name}/index.html</b></i> in the browser and the landing page of the website will be in front of you.  [{folder_name}: Name of the folder in which the ZIP file is extracted eg. in this case, its <i><b>PROJECT]</li>
+  <li>Further, Run <i><b>localhost/{folder_name}/index.html</b></i> in the browser and the landing page of the website will be in front of you.  [{folder_name}: Name of the folder in which the ZIP file is extracted eg. in this case, its <i><b>PROJECT</b></i>]</li>
   
   <li>
-    Finally, To get accustomed with the working of the website watch the video from the trailing link.
+    Finally, to get accustomed with the working of the website watch the video from the trailing link.
     <h4 align="center">
   <a href="https://drive.google.com/file/d/1N6Dmcyd-e1KUhaxoPa5Lse3OIWf3Ixcm/view?usp=drive_link" style="text-decoration: none;">🎥👀 Watch the Video👀🎥</a>
 </h4>
 
   </li>
 </ol>
-
